@@ -19,7 +19,8 @@ let package = Package(
             dependencies: [],
             resources: [
                 .process("Resources")
-            ]),
+            ],
+            plugins: []),
         .testTarget(
             name: "LCDViewTests",
             dependencies: ["LCDView"]),
